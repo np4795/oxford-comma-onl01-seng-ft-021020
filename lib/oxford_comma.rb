@@ -12,7 +12,7 @@ def oxford_comma(array)
   while count < array.length - 1 
   a << array[count]  + ", "
   count = count + 1 
-end
+   end
 a.join
 a.push("and " + array[-1])
 end
